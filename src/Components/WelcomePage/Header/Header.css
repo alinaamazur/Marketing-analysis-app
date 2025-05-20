@@ -40,6 +40,10 @@
   background-color: #EAF1FF;
 }
 
+.Register-text {
+  text-decoration: none;
+}
+
 .Arrow {
   width: 9px;
   height: 6px;

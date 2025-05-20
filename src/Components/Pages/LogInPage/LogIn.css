@@ -1,0 +1,145 @@
+.Log-in-page {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.Log-in-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin: 34px 100px;
+}
+
+.Log-in-header-text-section {
+    display: flex;
+    justify-content: end;
+}
+
+.Log-in-header-text {
+    color: #AAAAAA;
+}
+
+.Log-in-header-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.Sign-up-button {
+    text-decoration: none;
+}
+
+.Log-in-header-button:hover {
+    color: #3179d6;
+}
+
+.Log-in-main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Log-in-main-section h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Log-in-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+}
+
+.Log-in-input {
+    height: 44px;
+    border-radius: 12px;
+    font-size: 12px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.Log-in-button {
+    width: 412px;
+    height: 40px;
+    background-color: #5C9AEB;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 90px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Log-in-button:hover {
+    background-color: #659fec;
+}
+
+.Divider-section {
+    display: flex;
+    align-items: center;
+    width: 405px;
+    justify-content: space-between;
+    color: #AAAAAA;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.Divider {
+    width: 188px;
+    border: 0.5px solid #AAAAAA;
+    height: 0;
+}
+
+.Social-media-input {
+    height: 40px;
+    border-radius: 90px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Facebook-log-in {
+    border: 1px solid #2871D2;
+}
+
+.Facebook-log-in:hover {
+    color: #3179d6;
+}
+
+.Google-log-in {
+    border: 1px solid #A3A3A3;
+    color: #A3A3A3;
+    font-weight: bold;
+}
+
+.Google-log-in:hover {
+    color: #b8b4b4;
+}
+
+.Forgot-password-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Social-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    margin-left: 6px;
+    margin-right: 105px;
+}
+
+.Social-icon-google {
+    margin-right: 113px;
+}

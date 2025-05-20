@@ -10,6 +10,7 @@ import Examples from './Components/Examples/Examples';
 import Footer from './Components/Footer/Footer';
 
 import LogInPage from './Components/Pages/LogInPage/LogIn';
+import SignUpPage from './Components/Pages/RegisterPage/RegisterPage'
 
 const MainPage = () => (
   <div>
@@ -26,6 +27,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/log-in" element={<LogInPage />} />
+        <Route path="/sign-up" element={<SignUpPage />} />
       </Routes>
     </BrowserRouter>
   );

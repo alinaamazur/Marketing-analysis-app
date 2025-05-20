@@ -19,7 +19,9 @@ const RightHeader = () => {
             <Link to='/log-in'>
                 <button className='Header-item Log-in-text'>Log in</button>
             </Link>
-            <p className='Header-item'>Register</p>
+            <Link to='/sign-up' className='Register-text'>
+                <p className='Header-item'>Register</p>
+            </Link>
 
             <div className='Header-arrow' onClick={toggleDropdown}>
                 <p className='Language Active'>{selectedLang}</p>
@@ -42,7 +44,7 @@ const RightHeader = () => {
                     </div>
                 )}
             </div>
-        </div>
+        </div >
     );
 };
 
